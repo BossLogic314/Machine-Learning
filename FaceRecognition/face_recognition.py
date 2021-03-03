@@ -17,7 +17,7 @@ if not os.path.exists(file_name):
 camera = cv2.VideoCapture(0)
 
 # Creating a classifier object
-classifier = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+classifier = cv2.CascadeClassifier("..\Datasets\haarcascade_frontalface_default.xml")
 
 # Attributes boxes around the faces
 color = (0, 255, 255)
